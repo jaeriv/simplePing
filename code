@@ -22,7 +22,6 @@ def ping(ip):
 
 #<Start---multiprocessing code--->
 if __name__ == '__main__':
-	
 	pool = Pool()
 	pool.map(ping,ip)
 #<End---multiprocessing code--->
