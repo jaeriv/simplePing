@@ -1,2 +1,3 @@
 # simplePing
-Python tool that pings a list of IP addresses from a file and prints the results. 
+What does it do? 
+  Python tool that pings a list of IP addresses from a file and prints the results. It uses multiprocessing so it'll be quicker if you have a large list. You'll want to create a text file that lists all of the IP addresses from top to bottom that you want to ping. If you name the text file to something other than "IP_List.txt" than you'll have to modify that line of the code to reflect the different name (line 7). Also, if the file is not located in the same directory as the python file than you'll have to specify the file path. For example: "C:\\Users\\Desktop\\IP_List.txt". 
